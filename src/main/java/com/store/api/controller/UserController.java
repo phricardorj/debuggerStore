@@ -9,7 +9,7 @@ import java.security.Principal;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/user/")
+@RequestMapping("/store/user")
 public class UserController {
 
   private final UserService userService;

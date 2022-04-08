@@ -22,7 +22,12 @@ public class Customer {
     private String name;
     private String document;
 
-    @ManyToMany(mappedBy = "customer")
+    @ManyToMany
+    @JoinTable(
+            name="client_orders",
+            joinColumns = @JoinColumn(name="client_id"),
+            inverseJoinColumns = @JoinColumn(name = "orders_id")
+    )
     private List<ProductOrders> productOrdersList;
 
 }

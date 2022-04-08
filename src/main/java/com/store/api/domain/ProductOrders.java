@@ -31,6 +31,11 @@ public class ProductOrders {
     @ManyToMany
     private List<Product> products;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne
+    @JoinTable(
+            name="client_orders",
+            joinColumns = @JoinColumn(name="orders_id"),
+            inverseJoinColumns = @JoinColumn(name = "client_id")
+    )
     private Customer customer;
 }

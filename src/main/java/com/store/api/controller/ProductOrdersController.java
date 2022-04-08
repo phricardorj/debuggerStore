@@ -1,9 +1,7 @@
 package com.store.api.controller;
 
-import com.store.api.domain.ProductOrders;
 import com.store.api.dto.ProductOrderResponse;
 import com.store.api.dto.ProductOrdersRequest;
-import com.store.api.dto.ProductResponse;
 import com.store.api.service.ProductOrdersService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;

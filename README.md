@@ -28,7 +28,7 @@
 2. (POST) `/store/customer` - Register a new Consumer
 ```Json 
 {
-  "name": "Richard"
+  "name": "Richard",
   "document": "12638840084"
 }
 ```

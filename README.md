@@ -16,6 +16,10 @@
 
 ## 🗺️ API Documentation
 
+### Authentication to consume API 
+![Authentication](https://i.imgur.com/Ui61n8U.png "Authentication")<br>
+Application with basic security authentication, default username and password.
+
 ### Methods for registering in the Database
 
 1. (POST) `/store/product` - Register a new Product

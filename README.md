@@ -16,6 +16,8 @@
 
 ## 🗺️ API Documentation
 
+### Methods for registering in the Database
+
 1. (POST) `/store/product` - Register a new Product
 ```Json 
 {

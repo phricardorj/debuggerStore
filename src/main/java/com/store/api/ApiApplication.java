@@ -1,8 +1,8 @@
 package com.store.api;
 
-import com.store.api.model.Authority;
-import com.store.api.model.AuthorityKey;
-import com.store.api.model.User;
+import com.store.api.domain.Authority;
+import com.store.api.domain.AuthorityKey;
+import com.store.api.domain.User;
 import com.store.api.repository.AuthorityRepository;
 import com.store.api.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;

@@ -1,8 +1,8 @@
 package com.store.api.service;
 
 import com.store.api.dto.UserDto;
-import com.store.api.model.Authority;
-import com.store.api.model.User;
+import com.store.api.domain.Authority;
+import com.store.api.domain.User;
 import com.store.api.repository.AuthorityRepository;
 import com.store.api.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

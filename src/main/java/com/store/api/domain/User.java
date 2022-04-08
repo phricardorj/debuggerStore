@@ -1,4 +1,4 @@
-package com.store.api.model;
+package com.store.api.domain;
 
 import com.store.api.dto.UserDto;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.store.api.model;
+package com.store.api.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

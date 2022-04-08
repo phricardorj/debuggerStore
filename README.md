@@ -58,6 +58,6 @@
 
 #### Get information filtered
 
-1. (GET) `/store/product/{productCode}` - Get specific product by {productCode}
-2. (GET) `/store/customer/{customerCode}` - Get specific customer by {customerCode}
-3. (GET) `/store/order/{documentCustomer}` - Get specific order by {documentCustomer}
+1. (GET) `/store/product/{productCode}` - Product by {productCode}
+2. (GET) `/store/customer/{customerCode}` - Customer by {customerCode}
+3. (GET) `/store/order/{documentCustomer}` - Order by {documentCustomer}

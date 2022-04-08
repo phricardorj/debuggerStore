@@ -56,8 +56,8 @@
 2. (GET) `/store/customer` - List all customers
 3. (GET) `/store/order` - List all customers
 
-#### Get information filtered by your Code
+#### Get information filtered
 
 1. (GET) `/store/product/{productCode}` - Get specific product by {productCode}
 2. (GET) `/store/customer/{customerCode}` - Get specific customer by {customerCode}
-3. (GET) `/store/order/{orderCode}` - Get specific order by {orderCode}
+3. (GET) `/store/order/{documentCustomer}` - Get specific order by {documentCustomer}

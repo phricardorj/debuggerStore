@@ -48,3 +48,10 @@
 }
 ```
 
+### Methods to get data from the database
+
+#### Get Lists
+
+1. (GET) `/store/product` - List all products
+2. (GET) `/store/customer` - List all customers
+3. (GET) `/store/order` - List all customers

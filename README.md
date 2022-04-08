@@ -34,9 +34,15 @@
 ```
 
 3. (POST) `/store/order` - Register a new Purchase Order
-```Json 
+```Json
 {
-   "productIdList":[1, 2],
-   "clientId":1
+   "products":[
+      {
+         "productCode":"38894d75-35ef-4988-96c7-9ec9c247c50e",
+         "productQuantity":20
+      }
+   ],
+   "consumerCode":"27e66321-bd92-4c06-b603-074edfb79810"
 }
 ```
+

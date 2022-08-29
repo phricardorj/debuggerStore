@@ -1,4 +1,4 @@
-![Debugger Store](https://i.imgur.com/5C8Sm1M.png "Debugger Store")
+![Debugger Store](https://i.postimg.cc/JhKcDmnc/debugger-Store-Small.png "Debugger Store")
 
 **E-commerce RESTful API made by developers for developers**
 
